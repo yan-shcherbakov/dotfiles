@@ -20,3 +20,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # 7. Setup Dock
 ./.macos
 ./dock.sh
+
+# 8. Setup Project Folders
+mkdir ~/Documents/Projects
