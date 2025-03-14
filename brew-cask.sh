@@ -5,6 +5,8 @@ brew install --cask cursor
 # Utility
 brew install --cask 1password
 brew install --cask evernote
+brew install --cask screenflow
+brew install --cask disk-inventory-x
 
 # Browsers
 brew install --cask google-chrome
