@@ -13,5 +13,6 @@ dockutil --add /Applications/Cursor.app
 dockutil --add /Applications/iTerm.app
 dockutil --add /Applications/1Password.app
 dockutil --add /Applications/Evernote.app
+dockutil --add /Applications/ScreenFlow.app
 
 #dockutil --add ~/Documents --view grid --display folder
