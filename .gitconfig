@@ -1,0 +1,11 @@
+[user]
+  signingkey = ${SSH_SIGNING_KEY}
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "${GPG_SSH_PROGRAM}"
+
+[commit]
+  gpgsign = true

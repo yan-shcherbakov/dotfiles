@@ -1,5 +1,5 @@
 # Setup symlink for .zprofile
-setup_zprofile_symlink() {
+setup_dotfile_symlink() {
   echo "Setting up symlink for .zprofile..."
   
   # Check if dotfiles directory exists
@@ -26,7 +26,10 @@ setup_zprofile_symlink() {
   # Create the symlink
   ln -s "$HOME/dotfiles/.zprofile" "$HOME/.zprofile"
   echo "Symlink created: ~/.zprofile -> ~/dotfiles/.zprofile"
+
+  ln -s "$HOME/dotfiles/.gitconfig" "$HOME/.gitconfig"
+  echo "Symlink created: ~/.gitconfig -> ~/dotfiles/.gitconfig"
 }
 
 # Run the function
-setup_zprofile_symlink
+setup_dotfile_symlink

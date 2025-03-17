@@ -16,3 +16,6 @@ brew install colima
 
 # AI Tools
 brew install llm
+
+# Crypto
+brew install gpg
